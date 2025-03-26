@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: gray;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+}
+nav a {
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome {
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('https://th.bing.com/th/id/OIP.jdPiuS4GwVT3wnv8ai_4_AHaE8?rs=1&pid=ImgDetMain' ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+.products {
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('https://img.freepik.com/foto-gratis/compras-moda-linea-computadora-portatil_23-2150400620.jpg' ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+.products a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.products {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+.products .product1, .products .product2, .products .product3 {
+    margin: 50px;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.products .product1 img, .products .product2 img, .products .product3 img {
+    width: 100px;
+    height: 100px;
+}
+
+.login {
+    margin: 20px;
+    padding: 150px;
+    display: block;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+}
+.login button {
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
